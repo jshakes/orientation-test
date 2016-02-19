@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>app-name</title>
+  <link rel="stylesheet" href="./stylesheets/app.css">
+</head>
+
+<body>
+  <input type="file" accept="image/*" id="image-upload-input">
+  <h2>Image Preview</h2>
+  <table>
+    <tr>
+      <td>
+        <h3>Original - &lt;img&gt;</h3>
+        <img class="preview not-fixed">
+      </td>
+      <td>
+        <h3>Original - background-image</h3>
+        <div class="preview not-fixed"></div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h3>Fixed - &lt;img&gt;</h3>
+        <img class="preview fixed">
+      </td>
+      <td>
+        <h3>Fixed - background-image</h3>
+        <div class="preview fixed"></div>
+      </td>
+    </tr>
+  </table>
+  <script src="js/bundle.js"></script>
+</body>
+
+</html>
